@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Icon from '@/components/ui/icon';
 import { Badge } from '@/components/ui/badge';
+import ChatWidget from '@/components/ChatWidget';
 
 const engineData = {
   'Toyota': ['1NZ-FE', '2NZ-FE', '1ZZ-FE', '2ZZ-GE', '3ZZ-FE', '1AZ-FSE', '2AZ-FE', '1AR-FE', '2AR-FE', '3AR-FE', '4AR-FXE', '8AR-FTS', '1GR-FE', '2GR-FE', '3GR-FSE', '2JZ-GE', '2JZ-GTE', '1JZ-GE', '1JZ-GTE', '5VZ-FE', '1UZ-FE', '3UZ-FE', '1VD-FTV', '2KD-FTV', '1KD-FTV', '1CD-FTV', '2C-E', '3C-E'],
@@ -378,6 +379,8 @@ const Index = () => {
           </div>
         </div>
       </footer>
+
+      <ChatWidget />
     </div>
   );
 };
